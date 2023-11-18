@@ -24,61 +24,168 @@
 </head>
 
 <body class="bg-zinc-800 font-mono text-white">
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 <div class="p-8">
-  <p> <span class="text-orange-600">open class</span> <a>`Shane Dublin`</a>(</p>
-  <p class="pl-8"> <span class="text-orange-600">private val</span> String:
-    <span class="text-violet-600">address</span> =
-    <span class="text-green-500">"Mesa, AZ 85202"</span>,</p>
-  <p class="pl-8"> <span class="text-orange-600">private val</span> String:
-    <span class="text-violet-500">cell</span> =
+  <p><span class="text-orange-600">open class</span> Programmer(</p>
+  <p class="pl-4"><span class="text-orange-600">private val</span> String:
+    <span class="var-name">name</span> =
+    <span class="string">"Shane Dublin"</span>,</p>
+  <p class="pl-4"><span class="text-orange-600">private val</span> String:
+    <span class="var-name">address</span> =
+    <span class="string">"Mesa, AZ 85202"</span>,</p>
+  <p class="pl-4"><span class="text-orange-600">private val</span> String:
+    <span class="var-name">cell</span> =
     <span class="text-blue-500">(210) 557-5100</span>,</p>
-  <p class="pl-8"> <span class="text-orange-600">private val</span> String:
-    <span class="text-violet-600">email</span> =
-    <span class="text-green-500">"shanedublin27@gmail.com"</span>) {
-
+  <p class="pl-4"><span class="text-orange-600">private val</span> String:
+    <span class="var-name">email</span> =
+    <span class="string">"shanedublin27@gmail.com"</span>) {
   </p>
-</div>
+  <br>
+  <div class="pl-4">
+    <p class="text-1xl string">
+      /** <br>
+      &nbsp;* Personal Summary <br>
+      &nbsp;* Shane is a results-driven software developer with expertise in full stack development using Spring Boot,
+      Kotlin, Java, and SQL. <br>
+      &nbsp;* Proven problem-solving skills and a track record of delivering high-quality solutions. <br>
+      &nbsp;* Seeking a challenging position to expand technical knowledge and skills. <br>
+      &nbsp;*/
+    </p>
+    <br>
 
-<div class="p-8">
-  <h1 class="text-2xl font-bold">
-    Personal Summary
-  </h1>
-  <p>Shane Dublin is a skilled software developer who takes pride in his work. He is experienced in full stack development using technologies including Spring Boot, Graphql, Kotlin, Java and SQL.  Shane is excellent at providing solutions to complicated problems. He is currently searching for a position that will allow him to expand his technical knowledge and challenge his current abilities.</p>
+    <p class="header">//Technical Skills</p>
+    <span class="var">val</span> `<span class="var-name">Programming Languages</span>` = mutableListOf(
+    <span class="string">"Java"</span>,
+    <span class="string">"Kotlin"</span>,
+    <span class="string">"Groovy"</span>,
+    <span class="string">"JavaScript"</span>,
+    <span class="string">"HTML"</span>,
+    <span class="string">"CSS"</span>,
+    <span class="string">"C#"</span>,
+    <span class="string">"etc."</span>,)
+    <br>
+    <span class="var">val</span> <span class="var-name">Frameworks</span> = mutableListOf(
 
-</div>
+    <span class="string">"Spring Boot"</span>,
+    <span class="string">"Hibernate"</span>,
+    <span class="string">"Angular"</span>,
+    <span class="string">"React"</span>,
+    <span class="string">"Log4j"</span>,
+    <span class="string">"jQuery"</span>,
+    <span class="string">"etc."</span>,)
+    <br>
+    <span class="var">val</span> <span class="var-name">software</span> = mutableListOf(
+    <span class="string">"Maven"</span>,
+    <span class="string">"Git"</span>,
+    <span class="string">"Gradle"</span>,
+    <span class="string">"Docker"</span>,
+    <span class="string">"AWS"</span>,
+    <span class="string">"Kubernetes"</span>,
+    <span class="string">"etc."</span>,)
+    <br>
+    <span class="var">val</span> `<span class="var-name">Operating Systems</span>` = mutableListOf(
+    <span class="string">"Windows, </span>,
+    <span class="string">"Linux"</span>,
+    <span class="string">"macOS"</span>,)
+    <br>
+    <br>
+    <p class="text-2xl font-bold text-gray-500">
+      //Professional Experience
+    </p>
+    <span class="var">val</span> <span class="var-name">sonyJob</span> = Job( <br>
+    <span class="var-name">title</span> = <span class="string">"Senior Engineer (Devops)"</span>,<br>
+    <span class="var-name">company</span> = <span class="string">"Sony Interactive Entertainment"</span>, <br>
+    <span class="var-name">startDate</span> = <span class="string">"07/22"</span>,
+    <span class="var-name">endDate</span> = <span class="string">"06/23"</span>, <br>
+    <span class="var-name">responsibilities</span> = <span class="">listOf(</span> <br>
+    <span class="string pl-4">"Managed Jenkins Pipeline Scripts using Groovy, ensuring efficient and reliable build processes."</span>, <br>
+    <span class="string pl-4">"Integrated Jenkins pipelines with Slack, enhancing team communication and collaboration."</span>, <br>
+    <span class="string pl-4">"Integrated Sonarqube into the build pipeline to enforce code coverage and quality controls in pull requests."</span>, <br>
+    <span class="string pl-4">"Implemented automated mutation testing for Java builds, improving the robustness of the codebase."</span>, <br>
+    <span class="string pl-4">"Provided technical support and conducted routine software maintenance."</span>,))
+    <br>
+    <br>
+    <span class="var">val</span> <span class="var-name">intuitJob</span> = Job( <br>
+    <span class="var-name">title</span> = <span class="string">"Senior Software Developer"</span>,<br>
+    <span class="var-name">company</span> = <span class="string">"Intuit"</span>, <br>
+    <span class="var-name">startDate</span> = <span class="string">"11/20"</span>,
+    <span class="var-name">endDate</span> = <span class="string">"05/22"</span>, <br>
+    <span class="var-name">responsibilities</span> = <span class="">listOf(</span> <br>
+    <span class="string pl-4">"Contributed to the backend development of the Mint Budgeting App, utilizing Java, GraphQL, and Spring."</span>, <br>
+    <span class="string pl-4">"Updated build processes, enabling Continuous Delivery from Git to production."</span>, <br>
+    <span class="string pl-4">"Utilized AWS, Docker, Kubernetes, and ArgoCD for hosting, deployment, and debugging."</span>, <br>
+    <span class="string pl-4">"Developed the backend API for TurboTax Express using Netflix, DGS, and Kotlin."</span>, <br>
+    <span class="string pl-4">"Implemented Synchronous Coroutines in Kotlin for efficient data call aggregation."</span>, <br>
+    <span class="string pl-4">"Maintained a comprehensive test suite, achieving >85% code coverage with Karate and JUnit."</span>,))
 
-<div class="p-8">
-  <h1 class="font-bold">Technical Skills</h1>
-  <h2>Programming</h2>
-  <p>Java, Kotlin,Groovy, J2EE, Spring Boot, Hibernate, Apache POI, Log4J, OAUTH Javascript, Angular, React, AngularJS, Gulp, Bower, Jquery, Express, HTML, HTML5, JSON, XML, GSON, JAXB, AJAX, REST, CSS, Bootstrap, MySQL, SQL Server, PostgreSQL, MongoDB, C#, C++, Unity3D, LibGDX, LUA, LÖVE, Android</p>
-  <h2>Software</h2>
-  <p>Maven, Git, Gradle, NodeJS, SVN, Putty, Plink, Core FTP, Eclipse, Apache Tomcat, ArgoCd, AWS, CodePipeline, Kubernetes, Concourse, Docker, GuideWire, Jira, MSTeams, Insurance Now</p>
+    <br>
+    <br>
 
-  <h2>Operating Systems</h2>
-  <p>Windows, Linux, macOS</p>
-</div>
+    <span class="var">val</span> <span class="var-name">nwJob</span> = Job( <br>
+    <span class="var-name">title</span> = <span class="string">"Specialist, IT App Developer"</span>,<br>
+    <span class="var-name">company</span> = <span class="string">" Nationwide Insurance"</span>, <br>
+    <span class="var-name">startDate</span> = <span class="string">"02/18"</span>,
+    <span class="var-name">endDate</span> = <span class="string">"11/20"</span>, <br>
+    <span class="var-name">responsibilities</span> = <span class="">listOf(</span> <br>
+    <span class="string pl-4">"Migrated legacy applications to the cloud using AWS, Kubernetes, Concourse, and Docker."</span>, <br>
+    <span class="string pl-4">"Developed an API for an onboarding application using Spring (Boot, Web, Rest, JPA), Hibernate, and Maven."</span>, <br>
+    <span class="string pl-4">"Created single-page applications using HTML5, Angular, and React."</span>, <br>
+    <span class="string pl-4">"Configured automated deployments and testing using Concourse, GitHub, Docker, and Kubernetes."</span>, <br>
+    <span class="string pl-4">"Led a team of interns in uplifting a single-page application from React to Angular, aligning with enterprise standards."</span>, <br>
+    <span class="string pl-4">"Worked on the Guidewire InsuranceNow system, managing source control with Github."</span>, <br>
+    <span class="string pl-4">"Configured front-end screens using HTML, JavaScript, and jQuery."</span>, <br>
+    <span class="string pl-4">"Implemented Rocket.Chat bots to automate workloads."</span>, <br>
+    <span class="string pl-4">"Developed an Angular UI utilizing internal Github API to search for security vulnerabilities."</span>,))
 
-<div class="p-8">
-  <h1 class="text-2xl font-bold">
-    Professional Experience
-  </h1>
-  <h2 class="font-bold">
-    Senior Engineer (Devopvs) , at Sony (Contractor)			              07/22 - 06/23
-  </h2>
-  <ul>
-    <li>Managed Jenkins Pipeline Scripts using Groovy</li>
-    <li>Integrated Jenkins pipeline with Slack</li>
-    <li>Integrated Jenkins pipelines with internal APIs</li>
-    <li>Provided Technical Support</li>
-    <li>Integrated Sonarqube into the build pipeline to enable pull request checks to enforce code coverage and quality controls.</li>
-    <li>Implemented automated mutation testing for Java builds</li>
-    <li>Performed routine software maintenance, updated versions and ensured compatibility</li>
-  </ul>
+    <br>
+    <br>
 
-}
+    <span class="var">val</span> <span class="var-name">amexJob</span> = Job( <br>
+    <span class="var-name">title</span> = <span class="string">"Software Developer"</span>,<br>
+    <span class="var-name">company</span> = <span class="string">"American Express"</span>, <br>
+    <span class="var-name">startDate</span> = <span class="string">05/15"</span>,
+    <span class="var-name">endDate</span> = <span class="string">"12/16"</span>, <br>
+    <span class="var-name">responsibilities</span> = <span class="">listOf(</span> <br>
+    <span class="string pl-4">"Created the online resource tracking software named DTMS (Delivery Transformation Management System)."</span>, <br>
+    <span class="string pl-4">"Built responsive single-page web application utilizing Spring, Hibernate, AngularJS, and Bootstrap."</span>, <br>
+    <span class="string pl-4">"Managed MS SQL Server database, integrated ADS Authentication using an OAUTH approach."</span>, <br>
+    <span class="string pl-4">"Developed Windows batch scripts for automating deployments using Putty, Core FTP, and Linux shell scripts."</span>,))
+
+    <br>
+    <br>
+    <p class="header">
+      //Education
+    </p>
+    <span class="var">val</span> <span class="var-name">bachelors</span> = Education(
+    <span class="var-name">title</span> = <span class="string">"Software Development"</span>,
+    <span class="var-name">school</span> = <span class="string">"Western Governors University"</span>,
+    <span class="var-name">startDate</span> = <span class="string">2017"</span>,
+    <span class="var-name">endDate</span> = <span class="string">"2021"</span>,) <br>
+
+    <span class="var">val</span> <span class="var-name">certification</span> = Education(
+    <span class="var-name">title</span> = <span class="string">"FastTrack’D Java Program "</span>,
+    <span class="var-name">school</span> = <span class="string">"Cook Systems"</span>,
+    <span class="var-name">startDate</span> = <span class="string">2015"</span>,
+    <span class="var-name">endDate</span> = <span class="string">"2015"</span>,) <br>
+
+    <br><br>
+    <p class="header">
+      //Hobbies
+    </p>
+    <span class="var">val</span> <span class="var-name">`3dPrinting`</span> = Hobby(
+    <span class="var-name">name</span> = <span class="string">"3d printing and modeling"</span>,
+    <span class="var-name">description</span> = <span class="string">"I like to make functional models and 3d print them"</span>,)
+    <br>
+    <span class="var">val</span> <span class="var-name">circus</span> = Hobby(
+    <span class="var-name">name</span> = <span class="string">"Circus Arts"</span>,
+    <span class="var-name">description</span> = <span class="string">"I mainly practice partner acrobatics, I also train handstands and aerial arts"</span>,)
+
+  </div>
+
+  }
+
 
 </div>
 

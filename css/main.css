@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer components {
+  .var {
+    @apply text-orange-600
+  }
+
+  .var-name {
+    @apply text-indigo-400
+  }
+
+  .string {
+    @apply text-green-500
+  }
+
+  .header {
+    @apply text-2xl font-bold text-gray-500
+  }
+}
+
+
